@@ -1,0 +1,96 @@
+
+body {
+    background-color: #100028;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+  
+}
+
+#contactME {
+    background-color: #1dffb9;
+    width: 70%;
+    text-align: center;
+    margin: 100px;
+    padding: 50px;
+    border-top: 15px solid #1dffb9;
+    border-radius: 35px;
+    align-items: center;
+   display: block;
+    margin-left: auto;
+     margin-right: auto; 
+     margin-right: auto;
+}
+
+h1 {
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #100028;
+}
+
+form {
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-right: auto;
+}
+
+.filed {
+    margin-bottom: 25px;
+    width: 100%;
+    display: grid;
+    position: relative;
+    
+}
+
+label {
+    color: #fff;
+    background-color: #100028;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    width: 700px;
+    padding: 0;
+    font-weight: bolder;
+    position: absolute;
+    
+}
+
+.input {
+    height: 50px;
+    outline: none;
+    width: 700px;
+    padding-left: 20%;
+    box-sizing: border-box;
+}
+
+.filed:hover label {
+width: 18%;
+background-color: #100028 ;
+color: #1dffb9 ;
+transition: all 0.5s ease-in-out;
+}
+
+#itachi {
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: none;
+    font-size: large;
+    font-weight: bolder;
+    color: #100028;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+#itachi:hover {
+    background-color: #100028;
+    color: #1dffb9;
+    transition: 0.3s ease-in-out;
+}
